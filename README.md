@@ -1,8 +1,8 @@
-#Agenda de Contactos
+# Agenda de Contactos
 
-######Este proyecto es una agenda de contactos moderna construida en C++ usando CGI, HTML, CSS y JavaScript. Permite agregar, editar y eliminar contactos usando formularios web y almacenamiento en archivos planos.
+###### Este proyecto es una agenda de contactos moderna construida en C++ usando CGI, HTML, CSS y JavaScript. Permite agregar, editar y eliminar contactos usando formularios web y almacenamiento en archivos planos.
 
-##Características
+## Características
 
 -  Agregar, editar y eliminar contactos
 -  Selector de país con código internacional (+51, +52, etc.)
@@ -13,7 +13,7 @@
 
 ---
 
-##Estructura del proyecto
+## Estructura del proyecto
 
 C:/xampp/htdocs
 1. agenda
@@ -32,9 +32,9 @@ C:/xampp/cgi-bin
 
 ---
 
-##¿Como ejecutar?
+## ¿Cómo ejecutar?
 
-######1. Compila los archivos C++ (cpp) en cgi, por ejemplo:
+###### 1. Compila los archivos C++ (cpp) en cgi, por ejemplo:
 
 `g++ -o procesar.cgi procesar.cpp`
 
@@ -44,10 +44,10 @@ C:/xampp/cgi-bin
 
 `g++ -o eliminar.cgi eliminar.cpp`
 
-######Esto hace que los archivos de cgi pasen a `C:/xampp/cgi-bin/` de manera automatica.
+###### Esto hace que los archivos de cgi pasen a `C:/xampp/cgi-bin/` de manera automatica.
 
 ---
 
-##¿Como puedo ejecutarlo completamente?
+## ¿Como puedo ejecutarlo completamente?
 
-######Teniendo todo listo, los archivos como agenda en htdocs (`C:/xampp/htdocs/agenda`) y compilar los archivos de cgi, es hora de abrir el xampp y prender el apache, de esa manera hara que funcione correctamente sin imterrupciones, si no prendes el apache en xampp no funcionara correctamente.
+###### Teniendo todo listo, los archivos como agenda en htdocs (`C:/xampp/htdocs/agenda`) y compilar los archivos de cgi, es hora de abrir el xampp y prender el apache, de esa manera hara que funcione correctamente sin imterrupciones, si no prendes el apache en xampp no funcionara correctamente.
